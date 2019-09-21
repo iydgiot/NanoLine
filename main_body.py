@@ -19,8 +19,8 @@ import random
 
 app = Flask(__name__)
 ## LINE CLIENT
-line_bot_api = LineBotApi(str( os.environ.get('LINE_ACCESS_TOKEN') ))
-handler = WebhookHandler(str(os.environ.get('LINE_SECRET')))
+line_bot_api = LineBotApi(str( os.environ.get('S8liS9CXFw/fmiP4VR+XMLi/7fMac3G+DTxR7pAmjHNCPEG+L6axfov9hQVAbqtyH0XfG0vnrn4rWV4seM5gLRLAZuJzAWqK3NFtLaAD/YlNDbh8tVpMzRv8wIdrmVLcBdRLB2gUFnys6mNe/ZuXpAdB04t89/1O/w1cDnyilFU=') ))
+handler = WebhookHandler(str(os.environ.get('5eb9ff6cd99fe051141eff767bfd2fb3')))
 
 ## 9GAG CLIENT
 # gag_client = Gag()
